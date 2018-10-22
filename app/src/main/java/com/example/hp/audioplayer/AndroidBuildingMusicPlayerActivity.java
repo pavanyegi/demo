@@ -66,7 +66,7 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements Medi
         songTitleLabel = (TextView) findViewById(R.id.songTitle);
         songCurrentDurationLabel = (TextView) findViewById(R.id.songCurrentDurationLabel);
         songTotalDurationLabel = (TextView) findViewById(R.id.songTotalDurationLabel);
-
+        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
         // Mediaplayer
         mp = new MediaPlayer();
         songManager = new SongsManager();
